@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>TODO</title>
+
+ 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/main.js"></script>
+	<script src="js/sortChildren.js"></script>
+	
+</head>
+<body>
+	  
+    <div class="container">
+		<h2>TODO test</h2>
+       
+		<form name="toDoList">
+			<input type="text" name="listItem"/>
+		</form>
+    
+		<button class="button" id="add">Add</button>
+		<br/>
+		<div>
+			<button class="num button" onclick="printArr();">Sort by Number</button>
+			<button class="name button" onclick="printArr();">Sort by Name</button>
+			<div id="list"></div>
+		</div>
+
+    </div>
+
+</body>
+</html>
